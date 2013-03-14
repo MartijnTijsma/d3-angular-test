@@ -3,10 +3,11 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
-
-
-function MyCtrl2() {
+function OverviewCtrl($scope, DeviceService) {
+    $scope.devices = DeviceService.query();
 }
-MyCtrl2.$inject = [];
+
+function DetailCtrl($scope, DeviceService) {
+    
+    
+}

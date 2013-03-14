@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Example webmeter 1",
+        "type": "SV4402-ED",
+        "has_battery": false,
+        "ports": [
+            {
+                "id": 1,
+                "name": "Input 1",
+                "type": "input",
+                "subtype": "digital"
+            },
+            {
+                "id": 2,
+                "name": "Input 2",
+                "type": "input",
+                "subtype": "digital"
+            },
+            {
+                "id": 3,
+                "name": "Input 3",
+                "type": "input",
+                "subtype": "digital"
+            },
+            {
+                "id": 4,
+                "name": "Input 4",
+                "type": "input",
+                "subtype": "digital"
+            },
+            {
+                "id": 5,
+                "name": "Input 5",
+                "type": "input",
+                "subtype": "analog_current"
+            },
+            {
+                "id": 6,
+                "name": "Input 6",
+                "type": "input",
+                "subtype": "analog_current"
+            },
+            {
+                "id": 7,
+                "name": "Input 7",
+                "type": "input",
+                "subtype": "analog_current"
+            },
+            {
+                "id": 8,
+                "name": "Input 8",
+                "type": "input",
+                "subtype": "analog_current"
+            },
+            {
+                "id": 9,
+                "name": "Output 1",
+                "type": "output",
+                "subtype": "digital"
+            },
+            {
+                "id": 10,
+                "name": "Output 2",
+                "type": "output",
+                "subtype": "digital"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Example webmeter 2",
+        "type": "SV2002-ED",
+        "has_battery":  false,
+        "ports": [
+            {
+                "id": 11,
+                "name": "Input 1",
+                "type": "input",
+                "subtype": "digital"
+            },
+            {
+                "id": 12,
+                "name": "Input 2",
+                "type": "input",
+                "subtype": "digital"
+            },            
+            {
+                "id": 13,
+                "name": "Output 1",
+                "type": "output",
+                "subtype": "digital"
+            },
+            {
+                "id": 14,
+                "name": "Output 2",
+                "type": "output",
+                "subtype": "digital"
+            }
+        ]
+    } 
+]

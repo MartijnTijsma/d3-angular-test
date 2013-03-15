@@ -1,0 +1,13 @@
+<p>Multiple ports view</p>
+<p>
+    <div ng-repeat="port in device.ports">
+        <h3>Port {{$index}}: {{port.name}}</h3>
+        <ul>
+            <li><em>Type: </em>{{port.type}}</li>
+            <li><em>Subtype: </em>{{port.subtype}}</li>
+            <li><em>Samples: </em>{{port.data_history.length}}</li>
+        </ul>
+        <d3-graph options="port"></d3-graph>
+        <hr>
+    </div>
+</p>

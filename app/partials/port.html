@@ -1,0 +1,21 @@
+<p>This is the port view</p>
+<p>
+    <ul>
+        <li>Id: {{device.id}}</li>
+        <li>Name: {{device.name}}</li>
+        <li>Ports: <ul>
+            <li ng-repeat="port in device.ports">
+                <input type="radio" name="number" id="select-port-{{$index}}" ng-model="$parent.num" value="{{$index}}"><label for="select-port-{{$index}}"><em>Port {{$index}}:</em> {{port.name}}</label>
+            </li>
+        </ul></li>
+    </ul>
+    <div>
+        <h3>Port {{num}}: {{device.ports[num].name}}</h3>
+        <ul>
+            <li><em>Type: </em>{{device.ports[num].type}}</li>
+            <li><em>Subtype: </em>{{device.ports[num].subtype}}</li>
+            <li><em>Samples: </em>{{device.ports[num].data_history.length}}</li>
+        </ul>
+        <d3-graph options="device.ports[num]"></d3-graph>
+    </div>
+</p>

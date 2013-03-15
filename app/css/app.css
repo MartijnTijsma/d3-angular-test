@@ -39,6 +39,8 @@ body{
 .timeseries path{
     stroke-width: .5px;
     stroke: blue;
+    fill: blue;
+    fill-opacity: 0.1;
 }
 .timeseries circle{
     stroke: white;

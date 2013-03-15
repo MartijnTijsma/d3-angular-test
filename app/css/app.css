@@ -63,14 +63,48 @@ body{
     fill: #a41e22;
 }
 .timeseries circle{
-    stroke: white;
+    stroke-width: 0;
 }
+
+.timeseries.blue circle{
+    fill: #2399ec;
+}
+.timeseries.orange circle{
+    fill: #eaae1f;
+}
+.timeseries.purple circle{
+    fill: #8d4299;
+}
+.timeseries.green circle{
+    fill: #00B800;
+}
+.timeseries.red circle{
+    fill: #a41e22;
+}
+
 .timeseries text{
     fill: white;
     stroke: none;
-    font-size:12px;
+    font-size:14px;
     font-weight: bold;
 }
+
+.timeseries.blue text{
+    fill: #2399ec;
+}
+.timeseries.orange text{
+    fill: #eaae1f;
+}
+.timeseries.purple text{
+    fill: #8d4299;
+}
+.timeseries.green text{
+    fill: #00B800;
+}
+.timeseries.red text{
+    fill: #a41e22;
+}
+
 .line {
     float:left;
 }

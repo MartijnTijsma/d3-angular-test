@@ -47,7 +47,7 @@ angular.module('myApp.directives', []).
 
                     if(newVal.subtype == 'digital'){
                         maxValue = 1;
-                        interpolationType = 'step-before';
+                        interpolationType = 'step-after';
                         ticks = 1;
                     } else {
                         maxValue = 1000;
@@ -89,24 +89,66 @@ angular.module('myApp.directives', []).
                             .attr('x', 25)
                             .attr('y', 50);
 
-                    var line = d3.svg.line()
+                    /*var line = d3.svg.line()
                         .x(function(d){return timeScale(d.timestamp)})
                         .y(function(d){return countScale(d.value)})
                         .interpolate(interpolationType);
-
-                    var g = d3.select(element[0]).select('.chart')
-                        .append('g')
-                        .attr('class', 'timeseries '+newVal.color);
+                    */
 
                     var area = d3.svg.area()
                         .x(function(d){return timeScale(d.timestamp)})
                         .y0(chartDim.height)
                         .y1(function(d){return countScale(d.value)})
-                        .interpolate(interpolationType)
+                        .interpolate(interpolationType);
 
 
+                    var g = d3.select(element[0]).select('.chart')
+                        .append('g')
+                            .attr('class', 'timeseries '+newVal.color);
+                    
                     g.append("path")
-                        .attr('d', area(newVal.data_history));
+                            .attr('d', area(newVal.data_history));
+                        
+                    g.selectAll('circle')
+                        .data(newVal.data_history)
+                        .enter()
+                        .append('circle')
+                            .attr('cx', function(d){return timeScale(d.timestamp)})
+                            .attr('cy', function(d){return countScale(d.value)})
+                            .attr('r', 2);
+
+                    g.selectAll('circle')
+                    .on('mouseover', function(d){
+                        d3.select(this)
+                            .transition()
+                            .attr('r', 7);
+                    })
+                    .on('mouseout', function(d){
+                        d3.select(this)
+                            .transition()
+                            .attr('r', 2);
+                    });
+
+                    g.selectAll('circle')
+                        .on('mouseover.tooltip', function(d){
+                            d3.select('text.tp').remove();
+                            d3.select(element[0]).select('.timeseries')
+                                .append('text')
+                                    .text(d.value)
+                                    .attr('x', timeScale(d.timestamp) + 10)
+                                    .attr('y', countScale(d.value) - 2)
+                                    .attr('class', 'tp');
+                        });
+
+                    g.selectAll('circle')
+                        .on('mouseout.tooltip', function(d){
+                            d3.select('text.tp')
+                                .transition()
+                                .duration(500)
+                                .style("opacity", 0)
+                                .attr('transform', 'translate(10, -10)')
+                                .remove();
+                        });
 
                 });
             }

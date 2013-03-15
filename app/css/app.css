@@ -38,9 +38,29 @@ body{
 }
 .timeseries path{
     stroke-width: .5px;
-    stroke: blue;
-    fill: blue;
-    fill-opacity: 0.1;
+    stroke: #2399ec;
+    fill: #2399ec;
+    fill-opacity: 0.3;
+}
+.timeseries.blue path{
+    stroke: #2399ec;
+    fill: #2399ec;
+}
+.timeseries.orange path{
+    stroke: #eaae1f;
+    fill: #eaae1f;
+}
+.timeseries.purple path{
+    stroke: #8d4299;
+    fill: #8d4299;
+}
+.timeseries.green path{
+    stroke: #00B800;
+    fill: #00B800;
+}
+.timeseries.red path{
+    stroke: #a41e22;
+    fill: #a41e22;
 }
 .timeseries circle{
     stroke: white;

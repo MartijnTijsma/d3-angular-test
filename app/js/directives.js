@@ -37,7 +37,7 @@ angular.module('myApp.directives', []).
                     vis.selectAll('*').remove();
 
                     //if 'val' is undefined, exit
-                    if(newVal == undefined || newVal.subtype == undefined || newVal.data_history == undefined){
+                    if(newVal == undefined || newVal.subtype == undefined || newVal.data_history == undefined || newVal.color == undefined){
                         return;
                     }
 
@@ -96,13 +96,13 @@ angular.module('myApp.directives', []).
 
                     var g = d3.select(element[0]).select('.chart')
                         .append('g')
-                        .attr('class', 'timeseries');
+                        .attr('class', 'timeseries '+newVal.color);
 
                     var area = d3.svg.area()
                         .x(function(d){return timeScale(d.timestamp)})
                         .y0(chartDim.height)
                         .y1(function(d){return countScale(d.value)})
-                        .interpolate(interpolationType);
+                        .interpolate(interpolationType)
 
 
                     g.append("path")

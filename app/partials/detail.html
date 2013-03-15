@@ -5,7 +5,7 @@
         <li>Name: {{device.name}}</li>
         <li>Ports: <ul>
             <li ng-repeat="port in device.ports">
-                <input type="radio" name="number" ng-model="$parent.num" value="{{$index}}">{{port.name}}
+                <input type="radio" name="number" id="select-port-{{$index}}" ng-model="$parent.num" value="{{$index}}"><label for="select-port-{{$index}}">Port {{$index}} {{port.name}}</label>
             </li>
         </ul></li>
     </ul>

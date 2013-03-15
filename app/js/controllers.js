@@ -8,6 +8,8 @@ function OverviewCtrl($scope, DeviceService) {
 }
 
 function DetailCtrl($scope, DeviceService) {
-    
+    $scope.device = DeviceService.get({deviceId: 'data'})
+
+    $scope.num = 4;
     
 }

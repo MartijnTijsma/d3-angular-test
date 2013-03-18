@@ -36,36 +36,55 @@ body{
 .axis path, line{
     stroke:black;
 }
-.timeseries path{
-    stroke-width: .5px;
-    stroke: #2399ec;
-    fill: #2399ec;
+.timeseries path.area{
     fill-opacity: 0.3;
-}
-.timeseries.blue path{
-    stroke: #2399ec;
     fill: #2399ec;
 }
-.timeseries.orange path{
-    stroke: #eaae1f;
+.timeseries path.line{
+    stroke-width: 2.5px;
+    stroke: #2399ec;
+}
+
+.timeseries path.line.thin{
+    stroke-width: .5px;
+}
+
+.timeseries.blue path.area{
+    fill: #2399ec;
+}
+.timeseries.blue path.line{
+    stroke: #2399ec;
+}
+.timeseries.orange path.area{
     fill: #eaae1f;
 }
-.timeseries.purple path{
-    stroke: #8d4299;
+.timeseries.orange path.line{
+    stroke: #eaae1f;
+}
+.timeseries.purple path.area{
     fill: #8d4299;
 }
-.timeseries.green path{
-    stroke: #00B800;
+.timeseries.purple path.line{
+    stroke: #8d4299;
+}
+.timeseries.green path.area{
     fill: #00B800;
 }
-.timeseries.red path{
-    stroke: #a41e22;
+.timeseries.green path.line{
+    stroke: #00B800;
+}
+.timeseries.red path.area{
     fill: #a41e22;
 }
+.timeseries.red path.line{
+    stroke: #a41e22;
+}
+
+
+
 .timeseries circle{
     stroke-width: 0;
 }
-
 .timeseries.blue circle{
     fill: #2399ec;
 }

@@ -58,3 +58,10 @@ function PortsCtrl($scope, DeviceService, $timeout) {
     $scope.getDeviceData();
 }
 
+function AvgCtrl($scope, DeviceService, $timeout) {
+    $scope.getDeviceData = function(){
+        $scope.device = DeviceService.get({deviceId: 'average'});        
+    }
+
+    $scope.getDeviceData();
+}

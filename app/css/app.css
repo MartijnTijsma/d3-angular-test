@@ -34,8 +34,16 @@ body{
     font-family:sans-serif;
 }
 .axis path, line{
-    stroke:black;
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
+.brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
+
 .timeseries path.area{
     fill-opacity: 0.3;
     fill: #2399ec;
@@ -102,7 +110,7 @@ body{
 }
 
 .timeseries text{
-    fill: white;
+    fill: #333;
     stroke: none;
     font-size:14px;
     font-weight: bold;

@@ -1,0 +1,9 @@
+<p>Averages for device-id: {{device.id}}</p>
+<div ng-repeat="port in device.ports">
+    <h3>Brush graph for {{port.name}}</h3>
+    <d3-avg-brush-graph options="port"></d3-avg-brush-graph>
+    <br/>
+    <div style="text-align: center; width: 900px;">
+        <small><em>Drag over the small graph to select a time period</em></small>
+    </div>
+</div>

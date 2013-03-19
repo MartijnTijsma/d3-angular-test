@@ -8,5 +8,6 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives'])
         $routeProvider.when('/ports', {templateUrl: 'partials/ports.html', controller: PortsCtrl});
         $routeProvider.when('/port', {templateUrl: 'partials/port.html', controller: PortCtrl});
         $routeProvider.when('/averages', {templateUrl: 'partials/averages.html', controller: AvgCtrl});
+        $routeProvider.when('/brush', {templateUrl: 'partials/brush.html', controller: BrushCtrl});
         $routeProvider.otherwise({redirectTo: '/overview'});
   }]);

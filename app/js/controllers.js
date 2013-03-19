@@ -65,3 +65,11 @@ function AvgCtrl($scope, DeviceService, $timeout) {
 
     $scope.getDeviceData();
 }
+
+function BrushCtrl($scope, DeviceService, $timeout) {
+    $scope.getDeviceData = function(){
+        $scope.device = DeviceService.get({deviceId: 'average'});        
+    }
+
+    $scope.getDeviceData();
+}

@@ -1,6 +1,7 @@
 <p>Averages for device-id: {{device.id}}</p>
 <div ng-repeat="port in device.ports">
-        <h3>Port id: {{port.id}}</h3>
-        <d3-avg-graph options="port"></d3-graph>
-        <hr>
-    </div>
+    <h3>Brush graph for {{port.name}}</h3>
+    <d3-avg-graph options="port"></d3-avggraph>
+</div>
+
+

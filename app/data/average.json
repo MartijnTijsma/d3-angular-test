@@ -3,993 +3,1015 @@
     "ports": [
         {
             "id": 218,
+            "device_id": 23,
+            "latest_device_port_data_id": 368721,
+            "seqnr": 1,
+            "type": "input",
+            "subtype": "analog_voltage",
+            "nr": 1,
+            "name": "Windmeter",
+            "unit": "m/s",
+            "min": 0,
+            "max": 36.1,
+            "widget": "speedo",
+            "on_dashboard": 1,
+            "active_device_port_alert_id": null,
+            "accuracy": 2,
+            "conversion_reference_input_a": 0,
+            "conversion_reference_output_a": 0,
+            "conversion_reference_input_b": 10,
+            "conversion_reference_output_b": 50,
+            "desired_output_value": null,
+            "in_use": 1,
+            "digital_label_on": null,
+            "digital_label_off": null,
             "data_history": [
                 {
                     "date": "2013-03-12 14:00:00",
                     "timestamp": 1363093200000,
-                    "average": 17,
+                    "average": 0.85,
                     "min": 0,
-                    "max": 68
+                    "max": 3.4
                 },
                 {
                     "date": "2013-03-12 15:00:00",
                     "timestamp": 1363096800000,
-                    "average": 30,
+                    "average": 1.5,
                     "min": 0,
-                    "max": 80
+                    "max": 4
                 },
                 {
                     "date": "2013-03-12 16:00:00",
                     "timestamp": 1363100400000,
-                    "average": 24,
-                    "min": 1,
-                    "max": 75
+                    "average": 1.2,
+                    "min": 0.05,
+                    "max": 3.75
                 },
                 {
                     "date": "2013-03-12 17:00:00",
                     "timestamp": 1363104000000,
-                    "average": 29,
-                    "min": 4,
-                    "max": 75
+                    "average": 1.45,
+                    "min": 0.2,
+                    "max": 3.75
                 },
                 {
                     "date": "2013-03-12 18:00:00",
                     "timestamp": 1363107600000,
-                    "average": 24,
-                    "min": 1,
-                    "max": 70
+                    "average": 1.2,
+                    "min": 0.05,
+                    "max": 3.5
                 },
                 {
                     "date": "2013-03-12 19:00:00",
                     "timestamp": 1363111200000,
-                    "average": 18,
+                    "average": 0.9,
                     "min": 0,
-                    "max": 62
+                    "max": 3.1
                 },
                 {
                     "date": "2013-03-12 20:00:00",
                     "timestamp": 1363114800000,
-                    "average": 10,
+                    "average": 0.5,
                     "min": 0,
-                    "max": 66
+                    "max": 3.3
                 },
                 {
                     "date": "2013-03-12 21:00:00",
                     "timestamp": 1363118400000,
-                    "average": 9,
+                    "average": 0.45,
                     "min": 0,
-                    "max": 34
+                    "max": 1.7
                 },
                 {
                     "date": "2013-03-12 22:00:00",
                     "timestamp": 1363122000000,
-                    "average": 5,
+                    "average": 0.25,
                     "min": 0,
-                    "max": 18
+                    "max": 0.9
                 },
                 {
                     "date": "2013-03-12 23:00:00",
                     "timestamp": 1363125600000,
-                    "average": 3,
+                    "average": 0.15,
                     "min": 0,
-                    "max": 19
+                    "max": 0.95
                 },
                 {
                     "date": "2013-03-13 00:00:00",
                     "timestamp": 1363129200000,
-                    "average": 4,
+                    "average": 0.2,
                     "min": 0,
-                    "max": 17
+                    "max": 0.85
                 },
                 {
                     "date": "2013-03-13 01:00:00",
                     "timestamp": 1363132800000,
-                    "average": 3,
+                    "average": 0.15,
                     "min": 0,
-                    "max": 31
+                    "max": 1.55
                 },
                 {
                     "date": "2013-03-13 02:00:00",
                     "timestamp": 1363136400000,
-                    "average": 4,
+                    "average": 0.2,
                     "min": 0,
-                    "max": 21
+                    "max": 1.05
                 },
                 {
                     "date": "2013-03-13 03:00:00",
                     "timestamp": 1363140000000,
-                    "average": 4,
+                    "average": 0.2,
                     "min": 0,
-                    "max": 15
+                    "max": 0.75
                 },
                 {
                     "date": "2013-03-13 04:00:00",
                     "timestamp": 1363143600000,
-                    "average": 2,
+                    "average": 0.1,
                     "min": 0,
-                    "max": 12
+                    "max": 0.6
                 },
                 {
                     "date": "2013-03-13 05:00:00",
                     "timestamp": 1363147200000,
-                    "average": 1,
+                    "average": 0.05,
                     "min": 0,
-                    "max": 10
+                    "max": 0.5
                 },
                 {
                     "date": "2013-03-13 06:00:00",
                     "timestamp": 1363150800000,
-                    "average": 12,
+                    "average": 0.6,
                     "min": 0,
-                    "max": 71
+                    "max": 3.55
                 },
                 {
                     "date": "2013-03-13 07:00:00",
                     "timestamp": 1363154400000,
-                    "average": 43,
+                    "average": 2.15,
                     "min": 0,
-                    "max": 141
+                    "max": 7.05
                 },
                 {
                     "date": "2013-03-13 08:00:00",
                     "timestamp": 1363158000000,
-                    "average": 64,
-                    "min": 3,
-                    "max": 163
+                    "average": 3.2,
+                    "min": 0.15,
+                    "max": 8.15
                 },
                 {
                     "date": "2013-03-13 09:00:00",
                     "timestamp": 1363161600000,
-                    "average": 96,
-                    "min": 5,
-                    "max": 232
+                    "average": 4.8,
+                    "min": 0.25,
+                    "max": 11.6
                 },
                 {
                     "date": "2013-03-13 10:00:00",
                     "timestamp": 1363165200000,
-                    "average": 105,
-                    "min": 14,
-                    "max": 215
+                    "average": 5.25,
+                    "min": 0.7,
+                    "max": 10.75
                 },
                 {
                     "date": "2013-03-13 11:00:00",
                     "timestamp": 1363168800000,
-                    "average": 116,
-                    "min": 12,
-                    "max": 273
+                    "average": 5.8,
+                    "min": 0.6,
+                    "max": 13.65
                 },
                 {
                     "date": "2013-03-13 12:00:00",
                     "timestamp": 1363172400000,
-                    "average": 145,
-                    "min": 21,
-                    "max": 316
+                    "average": 7.25,
+                    "min": 1.05,
+                    "max": 15.8
                 },
                 {
                     "date": "2013-03-13 13:00:00",
                     "timestamp": 1363176000000,
-                    "average": 144,
-                    "min": 27,
-                    "max": 326
+                    "average": 7.2,
+                    "min": 1.35,
+                    "max": 16.3
                 },
                 {
                     "date": "2013-03-13 14:00:00",
                     "timestamp": 1363179600000,
-                    "average": 101,
-                    "min": 5,
-                    "max": 285
+                    "average": 5.05,
+                    "min": 0.25,
+                    "max": 14.25
                 },
                 {
                     "date": "2013-03-13 15:00:00",
                     "timestamp": 1363183200000,
-                    "average": 111,
-                    "min": 11,
-                    "max": 377
+                    "average": 5.55,
+                    "min": 0.55,
+                    "max": 18.85
                 },
                 {
                     "date": "2013-03-13 16:00:00",
                     "timestamp": 1363186800000,
-                    "average": 260,
-                    "min": 53,
-                    "max": 514
+                    "average": 13,
+                    "min": 2.65,
+                    "max": 25.7
                 },
                 {
                     "date": "2013-03-13 17:00:00",
                     "timestamp": 1363190400000,
-                    "average": 279,
-                    "min": 98,
-                    "max": 513
+                    "average": 13.95,
+                    "min": 4.9,
+                    "max": 25.65
                 },
                 {
                     "date": "2013-03-13 18:00:00",
                     "timestamp": 1363194000000,
-                    "average": 223,
-                    "min": 48,
-                    "max": 478
+                    "average": 11.15,
+                    "min": 2.4,
+                    "max": 23.9
                 },
                 {
                     "date": "2013-03-13 19:00:00",
                     "timestamp": 1363197600000,
-                    "average": 195,
-                    "min": 30,
-                    "max": 424
+                    "average": 9.75,
+                    "min": 1.5,
+                    "max": 21.2
                 },
                 {
                     "date": "2013-03-13 20:00:00",
                     "timestamp": 1363201200000,
-                    "average": 168,
-                    "min": 17,
-                    "max": 403
+                    "average": 8.4,
+                    "min": 0.85,
+                    "max": 20.15
                 },
                 {
                     "date": "2013-03-13 21:00:00",
                     "timestamp": 1363204800000,
-                    "average": 105,
-                    "min": 7,
-                    "max": 338
+                    "average": 5.25,
+                    "min": 0.35,
+                    "max": 16.9
                 },
                 {
                     "date": "2013-03-13 22:00:00",
                     "timestamp": 1363208400000,
-                    "average": 83,
-                    "min": 1,
-                    "max": 278
+                    "average": 4.15,
+                    "min": 0.05,
+                    "max": 13.9
                 },
                 {
                     "date": "2013-03-13 23:00:00",
                     "timestamp": 1363212000000,
-                    "average": 128,
-                    "min": 6,
-                    "max": 377
+                    "average": 6.4,
+                    "min": 0.3,
+                    "max": 18.85
                 },
                 {
                     "date": "2013-03-14 00:00:00",
                     "timestamp": 1363215600000,
-                    "average": 213,
-                    "min": 2,
-                    "max": 530
+                    "average": 10.65,
+                    "min": 0.1,
+                    "max": 26.5
                 },
                 {
                     "date": "2013-03-14 01:00:00",
                     "timestamp": 1363219200000,
-                    "average": 255,
-                    "min": 95,
-                    "max": 483
+                    "average": 12.75,
+                    "min": 4.75,
+                    "max": 24.15
                 },
                 {
                     "date": "2013-03-14 02:00:00",
                     "timestamp": 1363222800000,
-                    "average": 274,
-                    "min": 75,
-                    "max": 539
+                    "average": 13.7,
+                    "min": 3.75,
+                    "max": 26.95
                 },
                 {
                     "date": "2013-03-14 03:00:00",
                     "timestamp": 1363226400000,
-                    "average": 295,
-                    "min": 101,
-                    "max": 550
+                    "average": 14.75,
+                    "min": 5.05,
+                    "max": 27.5
                 },
                 {
                     "date": "2013-03-14 04:00:00",
                     "timestamp": 1363230000000,
-                    "average": 285,
-                    "min": 60,
-                    "max": 496
+                    "average": 14.25,
+                    "min": 3,
+                    "max": 24.8
                 },
                 {
                     "date": "2013-03-14 05:00:00",
                     "timestamp": 1363233600000,
-                    "average": 277,
-                    "min": 72,
-                    "max": 578
+                    "average": 13.85,
+                    "min": 3.6,
+                    "max": 28.9
                 },
                 {
                     "date": "2013-03-14 06:00:00",
                     "timestamp": 1363237200000,
-                    "average": 248,
-                    "min": 75,
-                    "max": 504
+                    "average": 12.4,
+                    "min": 3.75,
+                    "max": 25.2
                 },
                 {
                     "date": "2013-03-14 07:00:00",
                     "timestamp": 1363240800000,
-                    "average": 208,
-                    "min": 62,
-                    "max": 435
+                    "average": 10.4,
+                    "min": 3.1,
+                    "max": 21.75
                 },
                 {
                     "date": "2013-03-14 08:00:00",
                     "timestamp": 1363244400000,
-                    "average": 207,
-                    "min": 29,
-                    "max": 535
+                    "average": 10.35,
+                    "min": 1.45,
+                    "max": 26.75
                 },
                 {
                     "date": "2013-03-14 09:00:00",
                     "timestamp": 1363248000000,
-                    "average": 247,
-                    "min": 74,
-                    "max": 475
+                    "average": 12.35,
+                    "min": 3.7,
+                    "max": 23.75
                 },
                 {
                     "date": "2013-03-14 10:00:00",
                     "timestamp": 1363251600000,
-                    "average": 245,
-                    "min": 55,
-                    "max": 469
+                    "average": 12.25,
+                    "min": 2.75,
+                    "max": 23.45
                 },
                 {
                     "date": "2013-03-14 11:00:00",
                     "timestamp": 1363255200000,
-                    "average": 275,
-                    "min": 104,
-                    "max": 567
+                    "average": 13.75,
+                    "min": 5.2,
+                    "max": 28.35
                 },
                 {
                     "date": "2013-03-14 12:00:00",
                     "timestamp": 1363258800000,
-                    "average": 273,
-                    "min": 80,
-                    "max": 502
+                    "average": 13.65,
+                    "min": 4,
+                    "max": 25.1
                 },
                 {
                     "date": "2013-03-14 13:00:00",
                     "timestamp": 1363262400000,
-                    "average": 257,
-                    "min": 79,
-                    "max": 491
+                    "average": 12.85,
+                    "min": 3.95,
+                    "max": 24.55
                 },
                 {
                     "date": "2013-03-14 14:00:00",
                     "timestamp": 1363266000000,
-                    "average": 245,
-                    "min": 79,
-                    "max": 479
+                    "average": 12.25,
+                    "min": 3.95,
+                    "max": 23.95
                 },
                 {
                     "date": "2013-03-14 15:00:00",
                     "timestamp": 1363269600000,
-                    "average": 280,
-                    "min": 88,
-                    "max": 557
+                    "average": 14,
+                    "min": 4.4,
+                    "max": 27.85
                 },
                 {
                     "date": "2013-03-14 16:00:00",
                     "timestamp": 1363273200000,
-                    "average": 285,
-                    "min": 93,
-                    "max": 522
+                    "average": 14.25,
+                    "min": 4.65,
+                    "max": 26.1
                 },
                 {
                     "date": "2013-03-14 17:00:00",
                     "timestamp": 1363276800000,
-                    "average": 281,
-                    "min": 74,
-                    "max": 559
+                    "average": 14.05,
+                    "min": 3.7,
+                    "max": 27.95
                 },
                 {
                     "date": "2013-03-14 18:00:00",
                     "timestamp": 1363280400000,
-                    "average": 271,
-                    "min": 76,
-                    "max": 517
+                    "average": 13.55,
+                    "min": 3.8,
+                    "max": 25.85
                 },
                 {
                     "date": "2013-03-14 19:00:00",
                     "timestamp": 1363284000000,
-                    "average": 268,
-                    "min": 94,
-                    "max": 467
+                    "average": 13.4,
+                    "min": 4.7,
+                    "max": 23.35
                 },
                 {
                     "date": "2013-03-14 20:00:00",
                     "timestamp": 1363287600000,
-                    "average": 251,
-                    "min": 70,
-                    "max": 513
+                    "average": 12.55,
+                    "min": 3.5,
+                    "max": 25.65
                 },
                 {
                     "date": "2013-03-14 21:00:00",
                     "timestamp": 1363291200000,
-                    "average": 266,
-                    "min": 96,
-                    "max": 517
+                    "average": 13.3,
+                    "min": 4.8,
+                    "max": 25.85
                 },
                 {
                     "date": "2013-03-14 22:00:00",
                     "timestamp": 1363294800000,
-                    "average": 248,
-                    "min": 66,
-                    "max": 465
+                    "average": 12.4,
+                    "min": 3.3,
+                    "max": 23.25
                 },
                 {
                     "date": "2013-03-14 23:00:00",
                     "timestamp": 1363298400000,
-                    "average": 262,
-                    "min": 68,
-                    "max": 480
+                    "average": 13.1,
+                    "min": 3.4,
+                    "max": 24
                 },
                 {
                     "date": "2013-03-15 00:00:00",
                     "timestamp": 1363302000000,
-                    "average": 249,
-                    "min": 68,
-                    "max": 520
+                    "average": 12.45,
+                    "min": 3.4,
+                    "max": 26
                 },
                 {
                     "date": "2013-03-15 01:00:00",
                     "timestamp": 1363305600000,
-                    "average": 259,
-                    "min": 96,
-                    "max": 520
+                    "average": 12.95,
+                    "min": 4.8,
+                    "max": 26
                 },
                 {
                     "date": "2013-03-15 02:00:00",
                     "timestamp": 1363309200000,
-                    "average": 284,
-                    "min": 91,
-                    "max": 582
+                    "average": 14.2,
+                    "min": 4.55,
+                    "max": 29.1
                 },
                 {
                     "date": "2013-03-15 03:00:00",
                     "timestamp": 1363312800000,
-                    "average": 294,
-                    "min": 98,
-                    "max": 528
+                    "average": 14.7,
+                    "min": 4.9,
+                    "max": 26.4
                 },
                 {
                     "date": "2013-03-15 04:00:00",
                     "timestamp": 1363316400000,
-                    "average": 236,
-                    "min": 51,
-                    "max": 472
+                    "average": 11.8,
+                    "min": 2.55,
+                    "max": 23.6
                 },
                 {
                     "date": "2013-03-15 05:00:00",
                     "timestamp": 1363320000000,
-                    "average": 229,
-                    "min": 57,
-                    "max": 431
+                    "average": 11.45,
+                    "min": 2.85,
+                    "max": 21.55
                 },
                 {
                     "date": "2013-03-15 06:00:00",
                     "timestamp": 1363323600000,
-                    "average": 224,
-                    "min": 64,
-                    "max": 433
+                    "average": 11.2,
+                    "min": 3.2,
+                    "max": 21.65
                 },
                 {
                     "date": "2013-03-15 07:00:00",
                     "timestamp": 1363327200000,
-                    "average": 204,
-                    "min": 49,
-                    "max": 401
+                    "average": 10.2,
+                    "min": 2.45,
+                    "max": 20.05
                 },
                 {
                     "date": "2013-03-15 08:00:00",
                     "timestamp": 1363330800000,
-                    "average": 206,
-                    "min": 33,
-                    "max": 386
+                    "average": 10.3,
+                    "min": 1.65,
+                    "max": 19.3
                 },
                 {
                     "date": "2013-03-15 09:00:00",
                     "timestamp": 1363334400000,
-                    "average": 199,
-                    "min": 43,
-                    "max": 386
+                    "average": 9.95,
+                    "min": 2.15,
+                    "max": 19.3
                 },
                 {
                     "date": "2013-03-15 10:00:00",
                     "timestamp": 1363338000000,
-                    "average": 191,
-                    "min": 44,
-                    "max": 364
+                    "average": 9.55,
+                    "min": 2.2,
+                    "max": 18.2
                 },
                 {
                     "date": "2013-03-15 11:00:00",
                     "timestamp": 1363341600000,
-                    "average": 187,
-                    "min": 26,
-                    "max": 372
+                    "average": 9.35,
+                    "min": 1.3,
+                    "max": 18.6
                 },
                 {
                     "date": "2013-03-15 12:00:00",
                     "timestamp": 1363345200000,
-                    "average": 187,
-                    "min": 44,
-                    "max": 370
+                    "average": 9.35,
+                    "min": 2.2,
+                    "max": 18.5
                 },
                 {
                     "date": "2013-03-15 13:00:00",
                     "timestamp": 1363348800000,
-                    "average": 152,
-                    "min": 18,
-                    "max": 346
+                    "average": 7.6,
+                    "min": 0.9,
+                    "max": 17.3
                 },
                 {
                     "date": "2013-03-15 14:00:00",
                     "timestamp": 1363352400000,
-                    "average": 166,
-                    "min": 47,
-                    "max": 362
+                    "average": 8.3,
+                    "min": 2.35,
+                    "max": 18.1
                 },
                 {
                     "date": "2013-03-15 15:00:00",
                     "timestamp": 1363356000000,
-                    "average": 156,
-                    "min": 31,
-                    "max": 306
+                    "average": 7.8,
+                    "min": 1.55,
+                    "max": 15.3
                 },
                 {
                     "date": "2013-03-15 16:00:00",
                     "timestamp": 1363359600000,
-                    "average": 143,
-                    "min": 38,
-                    "max": 356
+                    "average": 7.15,
+                    "min": 1.9,
+                    "max": 17.8
                 },
                 {
                     "date": "2013-03-15 17:00:00",
                     "timestamp": 1363363200000,
-                    "average": 144,
-                    "min": 22,
-                    "max": 317
+                    "average": 7.2,
+                    "min": 1.1,
+                    "max": 15.85
                 },
                 {
                     "date": "2013-03-15 18:00:00",
                     "timestamp": 1363366800000,
-                    "average": 133,
-                    "min": 26,
-                    "max": 293
+                    "average": 6.65,
+                    "min": 1.3,
+                    "max": 14.65
                 },
                 {
                     "date": "2013-03-15 19:00:00",
                     "timestamp": 1363370400000,
-                    "average": 131,
-                    "min": 16,
-                    "max": 283
+                    "average": 6.55,
+                    "min": 0.8,
+                    "max": 14.15
                 },
                 {
                     "date": "2013-03-15 20:00:00",
                     "timestamp": 1363374000000,
-                    "average": 117,
-                    "min": 20,
-                    "max": 261
+                    "average": 5.85,
+                    "min": 1,
+                    "max": 13.05
                 },
                 {
                     "date": "2013-03-15 21:00:00",
                     "timestamp": 1363377600000,
-                    "average": 127,
-                    "min": 10,
-                    "max": 284
+                    "average": 6.35,
+                    "min": 0.5,
+                    "max": 14.2
                 },
                 {
                     "date": "2013-03-15 22:00:00",
                     "timestamp": 1363381200000,
-                    "average": 134,
-                    "min": 17,
-                    "max": 266
+                    "average": 6.7,
+                    "min": 0.85,
+                    "max": 13.3
                 },
                 {
                     "date": "2013-03-15 23:00:00",
                     "timestamp": 1363384800000,
-                    "average": 46,
+                    "average": 2.3,
                     "min": 0,
-                    "max": 210
+                    "max": 10.5
                 },
                 {
                     "date": "2013-03-16 00:00:00",
                     "timestamp": 1363388400000,
-                    "average": 62,
+                    "average": 3.1,
                     "min": 0,
-                    "max": 239
+                    "max": 11.95
                 },
                 {
                     "date": "2013-03-16 01:00:00",
                     "timestamp": 1363392000000,
-                    "average": 57,
+                    "average": 2.85,
                     "min": 0,
-                    "max": 187
+                    "max": 9.35
                 },
                 {
                     "date": "2013-03-16 02:00:00",
                     "timestamp": 1363395600000,
-                    "average": 22,
+                    "average": 1.1,
                     "min": 0,
-                    "max": 73
+                    "max": 3.65
                 },
                 {
                     "date": "2013-03-16 03:00:00",
                     "timestamp": 1363399200000,
-                    "average": 10,
+                    "average": 0.5,
                     "min": 0,
-                    "max": 33
+                    "max": 1.65
                 },
                 {
                     "date": "2013-03-16 04:00:00",
                     "timestamp": 1363402800000,
-                    "average": 19,
+                    "average": 0.95,
                     "min": 0,
-                    "max": 52
+                    "max": 2.6
                 },
                 {
                     "date": "2013-03-16 05:00:00",
                     "timestamp": 1363406400000,
-                    "average": 26,
+                    "average": 1.3,
                     "min": 0,
-                    "max": 66
+                    "max": 3.3
                 },
                 {
                     "date": "2013-03-16 06:00:00",
                     "timestamp": 1363410000000,
-                    "average": 26,
-                    "min": 9,
-                    "max": 48
+                    "average": 1.3,
+                    "min": 0.45,
+                    "max": 2.4
                 },
                 {
                     "date": "2013-03-16 07:00:00",
                     "timestamp": 1363413600000,
-                    "average": 35,
-                    "min": 3,
-                    "max": 63
+                    "average": 1.75,
+                    "min": 0.15,
+                    "max": 3.15
                 },
                 {
                     "date": "2013-03-16 08:00:00",
                     "timestamp": 1363417200000,
-                    "average": 30,
+                    "average": 1.5,
                     "min": 0,
-                    "max": 78
+                    "max": 3.9
                 },
                 {
                     "date": "2013-03-16 09:00:00",
                     "timestamp": 1363420800000,
-                    "average": 61,
-                    "min": 7,
-                    "max": 130
+                    "average": 3.05,
+                    "min": 0.35,
+                    "max": 6.5
                 },
                 {
                     "date": "2013-03-16 10:00:00",
                     "timestamp": 1363424400000,
-                    "average": 89,
-                    "min": 33,
-                    "max": 154
+                    "average": 4.45,
+                    "min": 1.65,
+                    "max": 7.7
                 },
                 {
                     "date": "2013-03-16 11:00:00",
                     "timestamp": 1363428000000,
-                    "average": 82,
-                    "min": 34,
-                    "max": 142
+                    "average": 4.1,
+                    "min": 1.7,
+                    "max": 7.1
                 },
                 {
                     "date": "2013-03-16 12:00:00",
                     "timestamp": 1363431600000,
-                    "average": 98,
-                    "min": 47,
-                    "max": 165
+                    "average": 4.9,
+                    "min": 2.35,
+                    "max": 8.25
                 },
                 {
                     "date": "2013-03-16 13:00:00",
                     "timestamp": 1363435200000,
-                    "average": 100,
-                    "min": 48,
-                    "max": 152
+                    "average": 5,
+                    "min": 2.4,
+                    "max": 7.6
                 },
                 {
                     "date": "2013-03-16 14:00:00",
                     "timestamp": 1363438800000,
-                    "average": 105,
-                    "min": 52,
-                    "max": 171
+                    "average": 5.25,
+                    "min": 2.6,
+                    "max": 8.55
                 },
                 {
                     "date": "2013-03-16 15:00:00",
                     "timestamp": 1363442400000,
-                    "average": 116,
-                    "min": 55,
-                    "max": 202
+                    "average": 5.8,
+                    "min": 2.75,
+                    "max": 10.1
                 },
                 {
                     "date": "2013-03-16 16:00:00",
                     "timestamp": 1363446000000,
-                    "average": 89,
-                    "min": 27,
-                    "max": 172
+                    "average": 4.45,
+                    "min": 1.35,
+                    "max": 8.6
                 },
                 {
                     "date": "2013-03-16 17:00:00",
                     "timestamp": 1363449600000,
-                    "average": 77,
-                    "min": 28,
-                    "max": 126
+                    "average": 3.85,
+                    "min": 1.4,
+                    "max": 6.3
                 },
                 {
                     "date": "2013-03-16 18:00:00",
                     "timestamp": 1363453200000,
-                    "average": 68,
-                    "min": 21,
-                    "max": 131
+                    "average": 3.4,
+                    "min": 1.05,
+                    "max": 6.55
                 },
                 {
                     "date": "2013-03-16 19:00:00",
                     "timestamp": 1363456800000,
-                    "average": 67,
-                    "min": 17,
-                    "max": 140
+                    "average": 3.35,
+                    "min": 0.85,
+                    "max": 7
                 },
                 {
                     "date": "2013-03-16 20:00:00",
                     "timestamp": 1363460400000,
-                    "average": 56,
-                    "min": 17,
-                    "max": 120
+                    "average": 2.8,
+                    "min": 0.85,
+                    "max": 6
                 },
                 {
                     "date": "2013-03-16 21:00:00",
                     "timestamp": 1363464000000,
-                    "average": 50,
-                    "min": 14,
-                    "max": 99
+                    "average": 2.5,
+                    "min": 0.7,
+                    "max": 4.95
                 },
                 {
                     "date": "2013-03-16 22:00:00",
                     "timestamp": 1363467600000,
-                    "average": 49,
-                    "min": 11,
-                    "max": 100
+                    "average": 2.45,
+                    "min": 0.55,
+                    "max": 5
                 },
                 {
                     "date": "2013-03-16 23:00:00",
                     "timestamp": 1363471200000,
-                    "average": 49,
-                    "min": 16,
-                    "max": 101
+                    "average": 2.45,
+                    "min": 0.8,
+                    "max": 5.05
                 },
                 {
                     "date": "2013-03-17 00:00:00",
                     "timestamp": 1363474800000,
-                    "average": 36,
-                    "min": 10,
-                    "max": 95
+                    "average": 1.8,
+                    "min": 0.5,
+                    "max": 4.75
                 },
                 {
                     "date": "2013-03-17 01:00:00",
                     "timestamp": 1363478400000,
-                    "average": 40,
-                    "min": 4,
-                    "max": 84
+                    "average": 2,
+                    "min": 0.2,
+                    "max": 4.2
                 },
                 {
                     "date": "2013-03-17 02:00:00",
                     "timestamp": 1363482000000,
-                    "average": 43,
-                    "min": 8,
-                    "max": 96
+                    "average": 2.15,
+                    "min": 0.4,
+                    "max": 4.8
                 },
                 {
                     "date": "2013-03-17 03:00:00",
                     "timestamp": 1363485600000,
-                    "average": 47,
-                    "min": 14,
-                    "max": 98
+                    "average": 2.35,
+                    "min": 0.7,
+                    "max": 4.9
                 },
                 {
                     "date": "2013-03-17 04:00:00",
                     "timestamp": 1363489200000,
-                    "average": 50,
-                    "min": 14,
-                    "max": 109
+                    "average": 2.5,
+                    "min": 0.7,
+                    "max": 5.45
                 },
                 {
                     "date": "2013-03-17 05:00:00",
                     "timestamp": 1363492800000,
-                    "average": 52,
-                    "min": 15,
-                    "max": 127
+                    "average": 2.6,
+                    "min": 0.75,
+                    "max": 6.35
                 },
                 {
                     "date": "2013-03-17 06:00:00",
                     "timestamp": 1363496400000,
-                    "average": 60,
-                    "min": 16,
-                    "max": 115
+                    "average": 3,
+                    "min": 0.8,
+                    "max": 5.75
                 },
                 {
                     "date": "2013-03-17 07:00:00",
                     "timestamp": 1363500000000,
-                    "average": 58,
-                    "min": 13,
-                    "max": 125
+                    "average": 2.9,
+                    "min": 0.65,
+                    "max": 6.25
                 },
                 {
                     "date": "2013-03-17 08:00:00",
                     "timestamp": 1363503600000,
-                    "average": 53,
-                    "min": 16,
-                    "max": 109
+                    "average": 2.65,
+                    "min": 0.8,
+                    "max": 5.45
                 },
                 {
                     "date": "2013-03-17 09:00:00",
                     "timestamp": 1363507200000,
-                    "average": 54,
-                    "min": 15,
-                    "max": 124
+                    "average": 2.7,
+                    "min": 0.75,
+                    "max": 6.2
                 },
                 {
                     "date": "2013-03-17 10:00:00",
                     "timestamp": 1363510800000,
-                    "average": 59,
-                    "min": 12,
-                    "max": 140
+                    "average": 2.95,
+                    "min": 0.6,
+                    "max": 7
                 },
                 {
                     "date": "2013-03-17 11:00:00",
                     "timestamp": 1363514400000,
-                    "average": 66,
-                    "min": 15,
-                    "max": 141
+                    "average": 3.3,
+                    "min": 0.75,
+                    "max": 7.05
                 },
                 {
                     "date": "2013-03-17 12:00:00",
                     "timestamp": 1363518000000,
-                    "average": 78,
-                    "min": 29,
-                    "max": 179
+                    "average": 3.9,
+                    "min": 1.45,
+                    "max": 8.95
                 },
                 {
                     "date": "2013-03-17 13:00:00",
                     "timestamp": 1363521600000,
-                    "average": 70,
-                    "min": 17,
-                    "max": 136
+                    "average": 3.5,
+                    "min": 0.85,
+                    "max": 6.8
                 },
                 {
                     "date": "2013-03-17 14:00:00",
                     "timestamp": 1363525200000,
-                    "average": 81,
-                    "min": 20,
-                    "max": 180
+                    "average": 4.05,
+                    "min": 1,
+                    "max": 9
                 },
                 {
                     "date": "2013-03-17 15:00:00",
                     "timestamp": 1363528800000,
-                    "average": 67,
-                    "min": 25,
-                    "max": 149
+                    "average": 3.35,
+                    "min": 1.25,
+                    "max": 7.45
                 },
                 {
                     "date": "2013-03-17 16:00:00",
                     "timestamp": 1363532400000,
-                    "average": 75,
-                    "min": 22,
-                    "max": 154
+                    "average": 3.75,
+                    "min": 1.1,
+                    "max": 7.7
                 },
                 {
                     "date": "2013-03-17 17:00:00",
                     "timestamp": 1363536000000,
-                    "average": 74,
-                    "min": 17,
-                    "max": 136
+                    "average": 3.7,
+                    "min": 0.85,
+                    "max": 6.8
                 },
                 {
                     "date": "2013-03-17 18:00:00",
                     "timestamp": 1363539600000,
-                    "average": 72,
-                    "min": 18,
-                    "max": 154
+                    "average": 3.6,
+                    "min": 0.9,
+                    "max": 7.7
                 },
                 {
                     "date": "2013-03-17 19:00:00",
                     "timestamp": 1363543200000,
-                    "average": 66,
-                    "min": 15,
-                    "max": 140
+                    "average": 3.3,
+                    "min": 0.75,
+                    "max": 7
                 },
                 {
                     "date": "2013-03-17 20:00:00",
                     "timestamp": 1363546800000,
-                    "average": 39,
-                    "min": 3,
-                    "max": 107
+                    "average": 1.95,
+                    "min": 0.15,
+                    "max": 5.35
                 },
                 {
                     "date": "2013-03-17 21:00:00",
                     "timestamp": 1363550400000,
-                    "average": 41,
-                    "min": 3,
-                    "max": 113
+                    "average": 2.05,
+                    "min": 0.15,
+                    "max": 5.65
                 },
                 {
                     "date": "2013-03-17 22:00:00",
                     "timestamp": 1363554000000,
-                    "average": 47,
-                    "min": 2,
-                    "max": 109
+                    "average": 2.35,
+                    "min": 0.1,
+                    "max": 5.45
                 },
                 {
                     "date": "2013-03-17 23:00:00",
                     "timestamp": 1363557600000,
-                    "average": 23,
+                    "average": 1.15,
                     "min": 0,
-                    "max": 82
+                    "max": 4.1
                 },
                 {
                     "date": "2013-03-18 00:00:00",
                     "timestamp": 1363561200000,
-                    "average": 35,
+                    "average": 1.75,
                     "min": 0,
-                    "max": 92
+                    "max": 4.6
                 },
                 {
                     "date": "2013-03-18 01:00:00",
                     "timestamp": 1363564800000,
-                    "average": 41,
+                    "average": 2.05,
                     "min": 0,
-                    "max": 94
+                    "max": 4.7
                 },
                 {
                     "date": "2013-03-18 02:00:00",
                     "timestamp": 1363568400000,
-                    "average": 37,
+                    "average": 1.85,
                     "min": 0,
-                    "max": 81
+                    "max": 4.05
                 },
                 {
                     "date": "2013-03-18 03:00:00",
                     "timestamp": 1363572000000,
-                    "average": 44,
+                    "average": 2.2,
                     "min": 0,
-                    "max": 95
+                    "max": 4.75
                 },
                 {
                     "date": "2013-03-18 04:00:00",
                     "timestamp": 1363575600000,
-                    "average": 40,
+                    "average": 2,
                     "min": 0,
-                    "max": 153
+                    "max": 7.65
                 },
                 {
                     "date": "2013-03-18 05:00:00",
                     "timestamp": 1363579200000,
-                    "average": 62,
-                    "min": 4,
-                    "max": 160
+                    "average": 3.1,
+                    "min": 0.2,
+                    "max": 8
                 },
                 {
                     "date": "2013-03-18 06:00:00",
                     "timestamp": 1363582800000,
-                    "average": 46,
-                    "min": 2,
-                    "max": 118
+                    "average": 2.3,
+                    "min": 0.1,
+                    "max": 5.9
                 },
                 {
                     "date": "2013-03-18 07:00:00",
                     "timestamp": 1363586400000,
-                    "average": 32,
+                    "average": 1.6,
                     "min": 0,
-                    "max": 92
+                    "max": 4.6
                 },
                 {
                     "date": "2013-03-18 08:00:00",
                     "timestamp": 1363590000000,
-                    "average": 46,
-                    "min": 2,
-                    "max": 113
+                    "average": 2.3,
+                    "min": 0.1,
+                    "max": 5.65
                 },
                 {
                     "date": "2013-03-18 09:00:00",
                     "timestamp": 1363593600000,
-                    "average": 40,
-                    "min": 3,
-                    "max": 115
+                    "average": 2,
+                    "min": 0.15,
+                    "max": 5.75
                 },
                 {
                     "date": "2013-03-18 10:00:00",
                     "timestamp": 1363597200000,
-                    "average": 49,
+                    "average": 2.45,
                     "min": 0,
-                    "max": 119
+                    "max": 5.95
                 }
             ]
         }

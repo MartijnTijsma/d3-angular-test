@@ -193,7 +193,7 @@ angular.module('myApp.directives', []).
 
                     var dataHistory = newVal.data_history;
 
-                    var maxValue = 1000; 
+                    var maxValue = newVal.max; 
                     var interpolationType = 'linear'; 
                     var ticks = 4;
 
@@ -227,9 +227,9 @@ angular.module('myApp.directives', []).
 
                     d3.selectAll('.y.axis')
                         .append('text')
-                            .text('value')
+                            .text(newVal.unit)
                             .attr('transform', 'rotate(-270, 0,0 )')
-                            .attr('x', 25)
+                            .attr('x', (container.height/2)-35)
                             .attr('y', 50);
 
                     var line = d3.svg.line()
